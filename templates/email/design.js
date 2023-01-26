@@ -29,7 +29,8 @@ module.exports = cx.design
                 require('./content-elements/sections/small-event'),
                 require('./content-elements/sections/small-story'),
                 require('./content-elements/sections/teaser-full-width'),
-                require('./content-elements/sections/title-with-line')
+                require('./content-elements/sections/title-with-line'),
+                require('./content-elements/sections/full-width-section')
             ),
         cx.contentElementGroup
             .withGroupId('elements')
@@ -73,7 +74,8 @@ module.exports = cx.design
                 require('./content-elements/elements/spacer'),
                 require('./content-elements/elements/h1'),
                 require('./content-elements/elements/h3'),
-                require('./content-elements/elements/plain-text')
+                require('./content-elements/elements/plain-text'),
+                require('./content-elements/sections/full-width-section')
             ),
         cx.dropzone
             .withDropzone('header')

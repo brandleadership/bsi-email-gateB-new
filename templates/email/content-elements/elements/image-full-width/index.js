@@ -2,7 +2,7 @@ const { cx, Icon } = require('@bsi-cx/design-build');
 
 module.exports = cx.contentElement
     .withElementId('image-full-width')
-    .withIcon(Icon.Text)
+    .withIcon(Icon.IMAGE)
     .withLabel('Image full width')
     .withFile(require('./template.twig'))
     .withParts(

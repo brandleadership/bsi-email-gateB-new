@@ -1,2 +1,9 @@
+
+*.exe
+*.zip
+template/www/*
+template/tmp/*
+node_modules/*
+*.docx
 /node_modules/
 /dist/

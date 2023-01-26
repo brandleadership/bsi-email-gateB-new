@@ -1,0 +1,49 @@
+<table border="0" cellpadding="0" cellspacing="0" align="center" width="580" bgcolor="#ffffff;" style="background: #ffffff;width:580px;">
+    <tbody>
+        {% if not _removePadding %}
+            <tr>
+                <td style="font-size: 12px; line-height: 12px;" valign="top" align="center" height="12" width="580" colspan="3">&nbsp;</td>
+            </tr>
+        {% endif %}
+        <tr>
+            <td width="20" class="contentpadding">
+                <table width="20" style="border-spacing:0; width:20px; height: auto;">
+                    <tr>
+                        <td width="20" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"></td>
+                    </tr>
+                </table>
+                <div width="20" style="width:20px;" class="contentpadding hello2">&nbsp;</div>
+            </td>
+            <td style="line-height:22px;font-size:16px;font-weight:normal;font-style:normal;text-decoration:none;" valign="top">
+                <table style="text-align:left;" cellpadding="0" cellspacing="0" border="0" width="540">
+                    <tr>
+                        <th class="block fullwidth" style="font-weight: normal;" width="540" align="left" valign="top">
+                            <table cellpadding="0" cellspacing="0" border="0" align="left" width="540">
+                                <tr>
+                                    <th class="block fullwidth padding-right-0" width="540" style="line-height:22px;font-size:16px;font-weight:normal;font-style:normal;text-decoration:none;font-weight:normal;" align="left" valign="top">
+                                        {% block content %}
+
+                                        {% endblock %}
+                                    </th>
+                                </tr>
+                            </table>
+                        </th>
+                    </tr>
+                </table>
+            </td>
+            <td width="20" class="contentpadding">
+                <table width="20" style="border-spacing:0; width:20px; height: auto;">
+                    <tr>
+                        <td width="20" valign="top" style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"></td>
+                    </tr>
+                </table>
+                <div width="20" style="width:20px;" class="contentpadding hello">&nbsp;</div>
+            </td>
+        </tr>
+        {% if not _removePadding %}
+            <tr>
+                <td style="font-size: 12px; line-height: 12px;" valign="top" align="center" height="12" colspan="3">&nbsp;</td>
+            </tr>
+        {% endif %}
+    </tbody>
+</table>
