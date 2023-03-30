@@ -11,7 +11,7 @@
         "twig": "html"
     },
     "[twig]": {
-        "editor.defaultFormatter": "junstyle.twig-language"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "html.format.wrapAttributesIndentSize": 20,
     "html.format.wrapLineLength": 20

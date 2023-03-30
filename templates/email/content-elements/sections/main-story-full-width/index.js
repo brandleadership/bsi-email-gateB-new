@@ -12,12 +12,14 @@ module.exports = cx.contentElement
         cx.part.image
             .withId('12340068-4617-11ed-b878-0242ac120002')
             .withLabel('Medium Story Image'),
-        cx.part.plainText
+        cx.part.formattedText
             .withId('1233ff50-4617-11ed-b878-0242ac120002')
-            .withLabel('Main Story Text-1'),
-        cx.part.plainText
+            .withLabel('Main Story Text-1')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
             .withId('1233fe24-4617-11ed-b878-0242ac120002')
-            .withLabel('Main Story Text-2'),
+            .withLabel('Main Story Text-2')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
         cx.part.link
             .withId('1233fbe0-4617-11ed-b878-0242ac120002')
             .withLabel('Main Story Button')
