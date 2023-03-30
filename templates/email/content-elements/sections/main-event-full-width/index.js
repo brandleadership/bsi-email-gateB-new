@@ -9,28 +9,38 @@ module.exports = cx.contentElement
         cx.part.image
             .withId('1a847a4c-463d-11ed-b878-0242ac120002')
             .withLabel('Medium Story Image'),
-        cx.part.plainText
+        cx.part.formattedText
             .withId('1a847c22-463d-11ed-b878-0242ac120002')
-            .withLabel('Main Event Text-1'),
-        cx.part.plainText
+            .withLabel('Main Event Text-1')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
             .withId('1a847880-463d-11ed-b878-0242ac120002')
-            .withLabel('Main Event Text-2'),
-        cx.part.plainText
+            .withLabel('Main Event Text-2')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
             .withId('1a847682-463d-11ed-b878-0242ac120002')
-            .withLabel('Main Event Location'),
-        cx.part.plainText
+            .withLabel('Main Event Location')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
             .withId('1a8470ba-463d-11ed-b878-0242ac120002')
-            .withLabel('Main Event Text-3'),
-        cx.part.plainText
+            .withLabel('Main Event Text-3')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
             .withId('1a846ebc-463d-11ed-b878-0242ac120002')
-            .withLabel('Main Event Speaker'),
-        cx.part.plainText
+            .withLabel('Main Event Speaker')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
             .withId('fa11370e-463d-11ed-b878-0242ac120002')
-            .withLabel('Main Event Themen'),
-        cx.part.plainText
+            .withLabel('Main Event Themen')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
             .withId('fa1134e8-463d-11ed-b878-0242ac120002')
-            .withLabel('Main Event Themen'),
-        cx.part.plainText.withId('').withLabel('Main Event Themen'),
+            .withLabel('Main Event Themen')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
+            .withId('fa113344-463d-11ed-b878-0242ac120002')
+            .withLabel('Main Event Themen')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
         cx.part.link
             .withId('1a846a5c-463d-11ed-b878-0242ac120002')
             .withLabel('Main Story Button')

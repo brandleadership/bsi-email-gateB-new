@@ -6,12 +6,14 @@ module.exports = cx.contentElement
     .withLabel('CTA Section')
     .withFile(require('./template.twig'))
     .withParts(
-        cx.part.plainText
+        cx.part.formattedText
             .withId('5514aad4-4547-11ed-b878-0242ac120002')
-            .withLabel('Get in Touch Subtitle'),
+            .withLabel('Get in Touch Subtitle')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
         cx.part.formattedText
             .withId('5514a412-4547-11ed-b878-0242ac120002')
-            .withLabel('Get in Touch Title'),
+            .withLabel('Get in Touch Title')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
         cx.part.link
             .withId('5514ac5a-4547-11ed-b878-0242ac120002')
             .withLabel('Get in Touch Link')

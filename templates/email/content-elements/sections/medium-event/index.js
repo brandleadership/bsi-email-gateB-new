@@ -12,12 +12,10 @@ module.exports = cx.contentElement
         cx.part.plainText
             .withId('088594d8-460c-11ed-b878-0242ac120002')
             .withLabel('Date-2'),
-        cx.part.plainText
+        cx.part.formattedText
             .withId('088593ca-460c-11ed-b878-0242ac120002')
-            .withLabel('Date-3'),
-        cx.part.plainText
-            .withId('0885928a-460c-11ed-b878-0242ac120002')
-            .withLabel('Medium Story Title'),
+            .withLabel('Medium Story Title')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
         cx.part.link
             .withId('08858f9c-460c-11ed-b878-0242ac120002')
             .withLabel('Medium Story Link')

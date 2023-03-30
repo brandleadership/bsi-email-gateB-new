@@ -9,12 +9,14 @@ module.exports = cx.contentElement
         cx.part.image
             .withId('d10e62ea-4643-11ed-b878-0242ac120002')
             .withLabel('Large Story Image'),
-        cx.part.plainText
+        cx.part.formattedText
             .withId('d10e5d9a-4643-11ed-b878-0242ac120002')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config'))
             .withLabel('Large Story Title'),
-        cx.part.plainText
+        cx.part.formattedText
             .withId('d10e5bd8-4643-11ed-b878-0242ac120002')
-            .withLabel('Large Story Text'),
+            .withLabel('Large Story Text')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
         cx.part.link
             .withId('d10e59f8-4643-11ed-b878-0242ac120002')
             .withLabel('Large Story Button')

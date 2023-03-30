@@ -15,12 +15,14 @@ module.exports = cx.contentElement
         cx.part.plainText
             .withId('91171802-4649-11ed-b878-0242ac120002')
             .withLabel('Date-2'),
-        cx.part.plainText
+        cx.part.formattedText
             .withId('911711c2-4649-11ed-b878-0242ac120002')
-            .withLabel('Medium Story Title'),
-        cx.part.plainText
+            .withLabel('Medium Story Title')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
+        cx.part.formattedText
             .withId('91170fd8-4649-11ed-b878-0242ac120002')
-            .withLabel('Large Event Text'),
+            .withLabel('Large Event Text')
+            .withHtmlEditorConfig(require('../../../../formatted-text-config')),
         cx.part.link
             .withId('91170bb4-4649-11ed-b878-0242ac120002')
             .withLabel('Large Event Button')
