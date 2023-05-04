@@ -2,54 +2,89 @@
     font-family: 'TT Norms';
     src: url('../../../resources/fonts/TTNormsProXBd.woff2') format('woff2');
     font-weight: 700;
+    mso-font-alt: 'Arial';
+    mso-generic-font-family: swiss;
 }
 
 @font-face {
     font-family: 'TT Norms';
     src: url('../../../resources/fonts/TTNormsProBd.woff2') format('woff2');
     font-weight: 600;
+    mso-font-alt: 'Arial';
+    mso-generic-font-family: swiss;
 }
 
 @font-face {
     font-family: 'TT Norms';
     src: url('../../../resources/fonts/TTNormsProRg.woff2') format('woff2');
     font-weight: 400;
+    mso-font-alt: 'Arial';
+    mso-generic-font-family: swiss;
 }
 
 @font-face {
     font-family: 'TT Norms';
     src: url('../../../resources/fonts/TTNormsProLt.woff2') format('woff2');
     font-weight: 200;
+    mso-font-alt: 'Arial';
+    mso-generic-font-family: swiss;
 } */
+#formatted-text p + a {
+  color: #023991;
+}
+
+.formatted-text p + a {
+  color: #023991;
+}
 
 html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
-    position: relative;
-    font-family: Arial, sans-serif;
-    padding: 0;
-    color: #000000;
-    font-size: 16px;
-    line-height: 1.5;
-    height: 100%;
-    margin: 0;
-    padding: 0.5rem;
+  position: relative;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100%;
+  margin: 0;
 }
 
 * {
-    font-family: Arial, sans-serif;
-    color: inherit;
-    font-size: inherit;
-    line-height: inherit;
+  font-family: Arial, sans-serif;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+#formatted-text p {
+  margin: 0;
+}
+
+#formatted-text p + a {
+  color: #023991;
+}
+
+.formatted-text p + a {
+  color: #023991;
+}
+
+.formatted-text a[href] {
+  color: #023991;
 }
 /*# sourceMappingURL=styles.css.map */

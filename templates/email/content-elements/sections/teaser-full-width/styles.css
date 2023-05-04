@@ -1,4 +1,9 @@
 .border {
-  border: 1px solid #ebebeb;
+  border-style: solid;
+  border-color: #ebebeb;
+  border: 2px;
+  border-right: 2px solid #ebebeb;
+  border-left: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
 }
 /*# sourceMappingURL=styles.css.map */

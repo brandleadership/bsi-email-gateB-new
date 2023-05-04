@@ -7,13 +7,11 @@ module.exports = cx.contentElement
     .withFile(require('./template.twig'))
     .withParts(
         cx.part.image
-            .withId('737e2544-4589-11ed-b878-0242ac120002')
+            .withId('737e2544-4589-11ed-b878-0242ac120004')
             .withLabel('Medium Story Image'),
         cx.part.formattedText
             .withId('737e2404-4589-11ed-b878-0242ac120002')
             .withLabel('Medium Story Title')
             .withHtmlEditorConfig(require('../../../../formatted-text-config')),
-        cx.part.link
-            .withId('737e21c0-4589-11ed-b878-0242ac120002')
-            .withLabel('Medium Story Link')
+        cx.part.link.withLabel('Medium Story Link')
     );

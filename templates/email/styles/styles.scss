@@ -30,6 +30,8 @@
     mso-generic-font-family: swiss;
 } */
 
+@import '../content-elements/elements/formatted-text/styles.scss';
+
 html {
     box-sizing: border-box;
 }
@@ -65,4 +67,16 @@ table {
 
 #formatted-text p {
     margin: 0;
+}
+
+#formatted-text p + a {
+    color: #023991;
+}
+
+.formatted-text p + a {
+    color: #023991;
+}
+
+.formatted-text a[href] {
+    color: #023991;
 }
